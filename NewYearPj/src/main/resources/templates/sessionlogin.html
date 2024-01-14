@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>ログイン画面</h1>
+	<form th:action="@{/sessionlogin}" method="POST">
+		ログインID
+		<input type="text" name="loginid">
+		パスワード
+		<input type="text" name="password">
+		
+		<input type="submit" value="ログインする">
+	</form>
+</body>
+</html>
